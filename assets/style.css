@@ -1,0 +1,40 @@
+.top-box {
+  margin: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  background-color: #9999FF;
+  max-width: 325px;
+  height: 100px;
+  display: inline-block;
+  border-left-style: solid;
+  border-left-color: #4444BB;
+  border-left-width: 15px;
+}
+#body-box {
+
+}
+
+.links {
+  float: right;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.line {
+
+}
+
+body {
+  background-color: #CCCCCF;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  float: right;
+}
+
+a {
+
+}
