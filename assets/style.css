@@ -1,40 +1,98 @@
 .top-box {
   margin: 20px;
+  margin-bottom: 0px;
   padding-right: 20px;
   padding-bottom: 15px;
   padding-left: 20px;
-  background-color: #9999FF;
+  background-color: #5aaaa5;
   max-width: 325px;
   height: 100px;
   display: inline-block;
   border-left-style: solid;
-  border-left-color: #4444BB;
+  border-left-color: #222;
   border-left-width: 15px;
 }
-#body-box {
 
+
+header {
+  margin-bottom: 0px;
+}
+
+.back {
+  height: 750px;
+  border-top-style: solid;
+  border-top-color: #AAA;
+  background-color: #CCC;
+  clear:both;
+}
+.body {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-color: white;
+  height: 550px;
+  width: 960px;
 }
 
 .links {
   float: right;
   padding: 20px;
   font-size: 25px;
+  position: relative;
+  bottom: -5px;
+}
+
+.homepic {
+  margin: 20px;
+  margin-top: 20px;
+  float: left;
 }
 
 .line {
+  height: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #AAA;
+}
 
+.about-info {
+  margin: 20px;
+  font-size: 20px;
+}
+
+p {
+  color: black;
 }
 
 body {
-  background-color: #CCCCCF;
+  background-color: white;
 }
 
 h1 {
-  color: white;
+  color: #000;
   font-size: 50px;
   float: right;
 }
 
-a {
+h2 {
+  color:black;
+  font-size: 40px;
+  margin: 20px;
+  position: relative;
+  bottom: -20px;
+}
 
+a {
+  color: #5aaaa5;
+}
+
+footer {
+  font-size: 16px;
+  text-align:  center;
+  color: white;
+  padding: 25px;
+  background-color: #666;
+  border-top-color: #AAA;
+  border-top-width: 10px;
 }
